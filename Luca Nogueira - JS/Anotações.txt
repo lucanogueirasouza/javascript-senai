@@ -1,0 +1,105 @@
+react 
+
+extensão color highlight - css
+
+console.log("") / para imprimir algo no console 
+
+- 
+
+o simbolo '=' atribui a algo ou seja, recebe algo 
+
+exemplo: var idade = 18 
+
+"""
+//tipo nome = valor 
+
+// tipo: let ou var 
+// nome: idade / nome da variavel 
+// valor: 18 
+
+var idade = 18 
+"""
+
+----
+
+tipos de variaveis em js: let, var ou const 
+
+VAR: variavel mutavel, ou seja, pode-se mudar ao longo do codigo 
+LET: com let não é possivel redeclarar uma variavel, ou seja, criar novamnente a varivel, porem, é mutavel.
+CONST: obviamente, é uma varaivel IMUTAVEL ao longo do codigo, nao pode-se mudar.
+
+----
+
+tipos: 
+
+primitivos: str, int, bool, null, undefined
+estruturais: array e objetos 
+
+/ 
+
+Primitivos: 
+    Str: letras
+    int: numeros
+    bool: True or False
+    null: null
+    undefined: varaivel ou algo indefinido 
+
+/
+
+estruturais:
+    Array: lista
+    objetos: Dicionario
+
+    Obs: Dicionarios: para chamar algum valor dos dicionarios, chama-se com ponto: aluno.nome
+    e para concatenar um texto com algum valor do Dicionario pode-se fazer assim: console.log(`o aluno
+    ${aluno.Nome} tem ${aluno.idade} anos`) LEMBRAR-SE DO "${}" E DA DUPLA-CRASE
+
+----------------------------------------
+
+let frutas = ["Banana", "Maçã", "Uva"]
+funcao table: exemplo: console.table(frutas)
+
+----------------------------------------
+
+Operadores Comparacionais 
+
+== / Compara os valores apenas
+=== / Compara os valores e tipos 
+!= / Verifica diferença entre os valores apenas
+!== / Verifica a diferença entre os valores e tipos 
+
+> / Maior que 
+>= / Maior, igual que 
+< / Menor que 
+<= / Menor, igual que
+
+-----------------------------------------
+
+Operadores Lógicos
+
+Operador and - &&
+Operador or  - || 
+
+-----------------------------------------
+
+Operadores Condicionais: 
+
+    - If
+    - Else If
+    - Else 
+
+ex: 
+
+    if () {
+
+    } else if () { 
+
+    } else { 
+
+    } 
+
+---------------------------------------
+
+Switch Case: 
+
+

@@ -102,4 +102,13 @@ ex:
 
 Switch Case: 
 
+switch (type) {
+    case :
+        break;
+
+    default:
+        break;
+}
+
+
 

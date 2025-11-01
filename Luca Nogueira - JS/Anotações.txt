@@ -102,13 +102,65 @@ ex:
 
 Switch Case: 
 
-switch (type) {
-    case :
-        break;
-
-    default:
-        break;
+switch (variavel) {
+    case: 
+        ...
+        break
+    
+    default: 
+        ....
 }
 
+----------------------------------------
 
+for: 
 
+for (let contador = 0; contador < 10; contador++) {
+    console.log("OLA")
+}
+
+-
+
+while: 
+
+contador = 0 
+
+while (contador <= 10:) { 
+    contador += 1
+    console.log("Ola")
+}
+
+--------------------------------------
+
+FUNÇÕES: 
+
+pode-se reutilizar blocos de algoritimso ao longo do codigo
+
+estrutura: 
+
+function name (parametros) {
+    ...
+}
+
+---------------------------------------
+
+FUNCOES QUE PODEM SE UTILIZAR NOS ARRAYS: 
+
+unshift // adiciona um valor ao comeco da lista
+push // coloca um valor ao final da lista 
+splice // consegue-se adicionar no lugar que quiser de uma lista, e igualmente, tirar um elemento da lista: lista.splice(colocar no lugar que quer, tirar algum, adicionar oque quiser) 
+
+pop // tirar ultimo argumento da lista 
+shift // tirar ultimo elemento da lista
+
+splice: lista.splice(0,0, "Laranja") // Coloca laranja na primeira posicao da lista, e nao tira nenhum elemento da lista 
+
+----------------------------------------------------
+
+FOR EACH FUNCTION
+
+let nomes = ["Luca", "Guilherme", "Evelyn", "Larrissa"]
+
+nomes.forEach(function(nomes){
+    console.log(`Olá, ${nomes}`)
+})

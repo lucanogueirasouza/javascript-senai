@@ -151,7 +151,7 @@ push // coloca um valor ao final da lista
 splice // consegue-se adicionar no lugar que quiser de uma lista, e igualmente, tirar um elemento da lista: lista.splice(colocar no lugar que quer, tirar algum, adicionar oque quiser) 
 
 pop // tirar ultimo argumento da lista 
-shift // tirar ultimo elemento da lista
+shift // tirar primeiro elemento da lista
 
 splice: lista.splice(0,0, "Laranja") // Coloca laranja na primeira posicao da lista, e nao tira nenhum elemento da lista 
 
@@ -163,4 +163,5 @@ let nomes = ["Luca", "Guilherme", "Evelyn", "Larrissa"]
 
 nomes.forEach(function(nomes){
     console.log(`Olá, ${nomes}`)
+
 })

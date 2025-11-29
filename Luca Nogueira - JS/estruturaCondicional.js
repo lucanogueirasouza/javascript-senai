@@ -9,5 +9,3 @@ if (sinal == "Verde") {
 // if: se condição for verdadeira, faça 
 // else: se a condição for falsa, não faça 
 // elif: se a condição do if e else for falso, faça
-
-

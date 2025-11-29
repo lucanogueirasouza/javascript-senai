@@ -151,7 +151,7 @@ push // coloca um valor ao final da lista
 splice // consegue-se adicionar no lugar que quiser de uma lista, e igualmente, tirar um elemento da lista: lista.splice(colocar no lugar que quer, tirar algum, adicionar oque quiser) 
 
 pop // tirar ultimo argumento da lista 
-shift // tirar primeiro elemento da lista
+shift // tirar ultimo elemento da lista
 
 splice: lista.splice(0,0, "Laranja") // Coloca laranja na primeira posicao da lista, e nao tira nenhum elemento da lista 
 
@@ -163,5 +163,53 @@ let nomes = ["Luca", "Guilherme", "Evelyn", "Larrissa"]
 
 nomes.forEach(function(nomes){
     console.log(`Olá, ${nomes}`)
-
 })
+
+----------------------------------------------------
+SET TIMEOUT 
+
+CONSEGUIMOS FAZER TIPO UM FROM TIME IMPORT SLEEP - FAZ O CODIGO TER UM TIMEOUT, OU SEJA, DEMORAR PARA EXECUTAR ALGUMA FUNÇÃO. 
+
+setTimeout(() => {
+    console.log("1. Iniciando o Servidor")    
+}, time);
+
+----------------------------------------------------
+
+PROMISSES
+
+RESOLVE: DEU CERTO
+
+REJECT: DEU ERRADO
+
+SEMPRE COLOCAMOS O RESEOLVE EM PRIMEIRA INSTANCIA, E O REJECT DEPOIS.
+
+SE A PROMISSE DER CERTA, COLOCAMOS O NOME DA VARIAVEL E, COLOCAMOS UM ENTER E UM TAB , COLOCAMOS .THEN(() => {}) COM UM ARROW FUNCTION DENTRO 
+
+SE A PROMISSE DER ERRADA, COLOCAMOS O NOME DA VARIAVEL E COLOCAMOS UM .CATCH(() => {}) COM UM ARROW FUNCTION DENTRO 
+
+EXEMPLO: 
+
+pedido
+    .then(() => {
+        console.log("BOOOOOUUUUA")
+    })
+
+    .catch(() => {
+        console.log("POBRETA!!")
+    })
+
+-----------------------------------------------------------------------------------------------------------
+
+CONHECENDO APIs: 
+
+API PUBLICA: SAO ABERTAS PARA QUALQUER DEV TESTAR, MUITAS VEZES COM UM REGISTRO COM CHAVE DE ACESSO 
+
+API PRIVADA: SÃO USADAS INTERNAMENTE POR UMA EMPRESA OU ALGO DO TIPO.
+
+comunicação de API: fetch("link da api")
+
+transformar api em json: 
+    .then((res) => {res.json})
+
+

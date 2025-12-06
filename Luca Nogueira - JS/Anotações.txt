@@ -212,4 +212,16 @@ comunicação de API: fetch("link da api")
 transformar api em json: 
     .then((res) => {res.json})
 
+-----------------------------------------------------------------------------------------------------------
+
+
+REACT JS
+
+É UMA BIBLIOTECA DO JS 
+
+RAPIDO, COMPONENTIZADO; SEPARAMOS OS OS ARQUIVOS - UM PARA O HEADER, FOOTER, DIVS, DO HTML. FACIL DE MANTER - MANUTENÇÃO FACILITADA. 
+
+NOS ARQUIVOS REACT, USAMOS A EXTENSAO .JSX 
+
+CRA E VITE - UTLIZADO PARA CONFIGURAR A BASE DE UM PROJETO PARA RECEBER O REACT.JS. VITE É MELHOR, MAIS LEVE E MAIS RÁPIDA. 
 
